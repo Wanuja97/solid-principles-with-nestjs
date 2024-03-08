@@ -1,0 +1,3 @@
+interface IBaseProcessPayment{
+    processPayment();
+}

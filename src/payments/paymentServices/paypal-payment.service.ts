@@ -12,7 +12,8 @@
 
 // LSP compliant approach
 
-class PaypalPayment implements IBasePaypal{
+class PaypalPayment implements IBaseProcessPayment
+{
     processPayment() {
         return console.log("Processing paypal Payment");
     }
